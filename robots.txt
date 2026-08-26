@@ -1,4 +1,9 @@
 User-agent: *
-Allow: /Disallow: /go/
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /go/
 
 Sitemap: https://verified-psychic-reviews.net/sitemap.xml
