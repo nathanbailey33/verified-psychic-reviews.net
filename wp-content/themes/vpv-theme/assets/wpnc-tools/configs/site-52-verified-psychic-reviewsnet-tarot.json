@@ -1,0 +1,1276 @@
+{
+  "schemaVersion": 3,
+  "bundle": "tarot",
+  "siteUrl": "https://verified-psychic-reviews.net",
+  "skin": "evidence-ledger",
+  "theme": {
+    "ink": "#122A3A",
+    "muted": "#5E7480",
+    "accent": "#B58A2D",
+    "accentStrong": "#765719",
+    "surface": "#FCFDF9",
+    "soft": "#EAF2ED",
+    "night": "#112C32",
+    "night2": "#285148",
+    "gold": "#B58A2D",
+    "goldBright": "#E6C66C",
+    "cream": "#FAFBF5",
+    "line": "#D4E0D8",
+    "cardSurface": "#FFFFFF",
+    "privacySurface": "#E5EFE8",
+    "onDark": "#FFFFFF"
+  },
+  "uiCopy": {
+    "progress": [
+      "Question",
+      "Randomize",
+      "Choose",
+      "Inspect",
+      "Assess"
+    ],
+    "hubStep": "Select a review format",
+    "hubIntro": "These spreads separate symbolic impressions from claims you can verify in everyday life.",
+    "hubAria": "Evidence-aware tarot choices",
+    "privacyTitle": "No question is submitted.",
+    "privacyBody": "The browser creates the draw locally; the result URL stores cards, not personal text.",
+    "focusStep": "State the claim carefully",
+    "shuffle": "Randomize the 78-card deck",
+    "journalPromptLabel": "Verification prompt",
+    "viewFull": "Inspect the complete reading",
+    "combinedLabel": "Working interpretation",
+    "noticeLabel": "Evidence to notice",
+    "nextActionLabel": "Reality check",
+    "nextActionBody": "List one observation that would support this interpretation and one that would contradict it.",
+    "ctaTitle": "Compare reviewed reading services",
+    "ctaBody": "Check policies, pricing, and fit before choosing any paid conversation.",
+    "copySuccess": "Review link copied."
+  },
+  "disclaimer": "For entertainment and self-reflection only. Tarot is symbolic guidance, not professional, medical, legal, or financial advice.",
+  "cta": {
+    "text": "See Verified Tarot Reading Options",
+    "url": "/go/"
+  },
+  "pages": [
+    {
+      "id": "site-52-tarot-hub",
+      "type": "tarot_hub",
+      "slug": "tarot-reading-sampler",
+      "eyebrow": "Verified reading sampler",
+      "title": "Sample a tarot spread before choosing a reader",
+      "intro": "See how different tarot questions can be framed, reviewed, and carried into a thoughtful next step.",
+      "seoTitle": "Tarot Reading Sampler",
+      "metaDescription": "Sample free tarot spreads for love, decisions, daily reflection, and three-card questions before exploring reading options.",
+      "section": "Clear framing builds trust.",
+      "readings": [
+        {
+          "title": "A transparent three-card tarot sampler",
+          "description": "Each position is named before you draw, so you can judge whether the reflection fits your question.",
+          "url": "/three-card-tarot-sampler/",
+          "symbol": "✦"
+        },
+        {
+          "title": "A careful love tarot sampler",
+          "description": "Reflect on your need, the connection, and the conversation that deserves honest attention.",
+          "url": "/love-tarot-sampler/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Yes or no tarot, with the missing context",
+          "description": "A one-card lean is only a starting point. Add facts, constraints, and your own decision rule.",
+          "url": "/yes-no-tarot-sampler/",
+          "symbol": "✦"
+        },
+        {
+          "title": "A daily card you can review later",
+          "description": "Draw one symbolic theme and note what actually happens, without turning the card into a promise.",
+          "url": "/daily-card-sampler/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Career tarot reflection",
+          "description": "Look at your strengths, current pressure, and one useful next step at work.",
+          "url": "/career-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "A decision tarot spread",
+          "description": "Separate what you know, what you fear, and the option you can test safely.",
+          "url": "/decision-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for friendship",
+          "description": "Reflect on reciprocity, an unspoken need, and a conversation worth having.",
+          "url": "/friendship-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "A boundaries tarot reading",
+          "description": "Name what drains you, what matters, and a boundary you can express clearly.",
+          "url": "/boundaries-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for new beginnings",
+          "description": "Explore what you are leaving, what you are learning, and where to begin.",
+          "url": "/new-beginnings-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "A letting go tarot spread",
+          "description": "Notice the attachment, the need beneath it, and one gentle way forward.",
+          "url": "/letting-go-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for a creative block",
+          "description": "Find the pressure behind a stalled idea and pick an experiment that restores momentum.",
+          "url": "/creative-block-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for a work change",
+          "description": "Compare staying and moving through priorities, tradeoffs, and practical conditions.",
+          "url": "/work-change-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "A study tarot reflection",
+          "description": "Reflect on concentration, available support, and a study rhythm you can sustain.",
+          "url": "/study-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for a difficult conversation",
+          "description": "Prepare your intention, consider the other person's autonomy, and choose a respectful opening.",
+          "url": "/communication-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Two path tarot spread",
+          "description": "Compare two real options without handing the decision over to chance.",
+          "url": "/two-path-tarot-spread/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Three path tarot spread",
+          "description": "Give a third possibility room beside the obvious two and inspect each tradeoff.",
+          "url": "/three-path-tarot-spread/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Seven card horseshoe spread",
+          "description": "Walk through context, hidden influences, other people, and possible direction.",
+          "url": "/horseshoe-tarot-spread/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Celtic cross tarot spread",
+          "description": "Use ten positions to map a layered question, including challenges and environment.",
+          "url": "/celtic-cross-tarot-spread/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Year ahead tarot spread",
+          "description": "Explore a theme and twelve monthly prompts as a planning journal, not a forecast.",
+          "url": "/year-ahead-tarot-spread/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for resetting a habit",
+          "description": "Explore the cue, the routine you want to change, and a manageable alternative.",
+          "url": "/habit-reset-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for creative collaboration",
+          "description": "Reflect on a shared goal, a difference in working styles, and a conversation that could help.",
+          "url": "/creative-collaboration-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for planning a move",
+          "description": "Sort practical needs, the feelings around a move, and one step you can verify.",
+          "url": "/moving-home-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for setting priorities",
+          "description": "Lay out competing demands, what can wait, and one useful next action.",
+          "url": "/priority-setting-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot before an important meeting",
+          "description": "Clarify your purpose, what you need to hear, and one question to bring.",
+          "url": "/meeting-preparation-tarot-reading/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Tarot for reviewing a past reading",
+          "description": "Revisit an earlier interpretation, the events you observed, and a better question now.",
+          "url": "/past-reading-review-tarot-reading/",
+          "symbol": "✦"
+        }
+      ]
+    },
+    {
+      "id": "site-52-three-card",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "three-card-tarot-sampler",
+      "eyebrow": "Sampler · three cards",
+      "title": "A transparent three-card tarot sampler",
+      "intro": "Each position is named before you draw, so you can judge whether the reflection fits your question.",
+      "questionLabel": "What would you like this spread to help you review?",
+      "questionPlaceholder": "Example: What should I check before making this plan?",
+      "spreadLabels": [
+        "What is happening",
+        "What to verify",
+        "What to try next"
+      ],
+      "journalPrompt": "Mark the sentence that feels testable, then write what evidence you will look for.",
+      "resultCopy": "A trustworthy reflection makes its limits visible and leaves room for your own evidence.",
+      "seoTitle": "Three-Card Tarot Reading Sampler",
+      "metaDescription": "Try a transparent free three-card tarot sampler with named positions and a verification prompt."
+    },
+    {
+      "id": "site-52-love",
+      "type": "tarot_reading",
+      "mode": "love",
+      "slug": "love-tarot-sampler",
+      "eyebrow": "Sampler · relationship",
+      "title": "A careful love tarot sampler",
+      "intro": "Reflect on your need, the connection, and the conversation that deserves honest attention.",
+      "questionLabel": "Which relationship question would you like to examine?",
+      "questionPlaceholder": "Example: What should I clarify before assuming how they feel?",
+      "spreadLabels": [
+        "Your need",
+        "The connection",
+        "What to clarify"
+      ],
+      "journalPrompt": "Separate what you know from what you are guessing about the other person.",
+      "resultCopy": "Good relationship insight respects uncertainty, privacy, and the other person’s right to answer for themselves.",
+      "seoTitle": "Love Tarot Reading Sampler",
+      "metaDescription": "Try a careful free love tarot sampler focused on needs, connection, and clear communication."
+    },
+    {
+      "id": "site-52-yes-no",
+      "type": "tarot_reading",
+      "mode": "yes_no",
+      "slug": "yes-no-tarot-sampler",
+      "eyebrow": "Sampler · one card",
+      "title": "Yes or no tarot, with the missing context",
+      "intro": "A one-card lean is only a starting point. Add facts, constraints, and your own decision rule.",
+      "questionLabel": "What choice would benefit from a second look?",
+      "questionPlaceholder": "Example: Is waiting one more week the wiser option?",
+      "spreadLabels": [
+        "The symbolic lean"
+      ],
+      "journalPrompt": "Write the condition that would make you change your mind.",
+      "resultCopy": "The responsible answer is often conditional. Let the card open the review instead of closing it.",
+      "seoTitle": "Yes or No Tarot Reading Sampler",
+      "metaDescription": "Sample a free yes-or-no tarot reflection with an explicit context and decision check."
+    },
+    {
+      "id": "site-52-daily",
+      "type": "tarot_reading",
+      "mode": "daily",
+      "slug": "daily-card-sampler",
+      "eyebrow": "Sampler · daily",
+      "title": "A daily card you can review later",
+      "intro": "Draw one symbolic theme and note what actually happens, without turning the card into a promise.",
+      "questionLabel": "What would you like to observe today?",
+      "questionPlaceholder": "Optional: name today’s situation.",
+      "spreadLabels": [
+        "Observation theme"
+      ],
+      "journalPrompt": "At day’s end, note one moment that matched and one that did not.",
+      "resultCopy": "Reflection gets stronger when you compare the symbol with lived experience honestly.",
+      "seoTitle": "Daily Tarot Card Sampler",
+      "metaDescription": "Draw a free daily tarot sampler card and compare its theme with your lived experience."
+    },
+    {
+      "id": "site-52-career-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "career-tarot-reading",
+      "title": "Career tarot reflection",
+      "intro": "Look at your strengths, current pressure, and one useful next step at work.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "Which work fact would change your next step?",
+      "resultCopy": "Compare the card's theme with actual feedback, responsibilities, and available opportunities.",
+      "seoTitle": "Career tarot reflection | Verified Psychic Reviews",
+      "metaDescription": "Look at your strengths, current pressure, and one useful next step at work.",
+      "seo": {
+        "lead": "Look at your strengths, current pressure, and one useful next step at work.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Compare the card's theme with actual feedback, responsibilities, and available opportunities.",
+              "Which work fact would change your next step?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-decision-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "decision-tarot-reading",
+      "title": "A decision tarot spread",
+      "intro": "Separate what you know, what you fear, and the option you can test safely.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What evidence would make either option stronger?",
+      "resultCopy": "Write the decision criteria before drawing; revisit them after reading rather than following a single symbol.",
+      "seoTitle": "A decision tarot spread | Verified Psychic Reviews",
+      "metaDescription": "Separate what you know, what you fear, and the option you can test safely.",
+      "seo": {
+        "lead": "Separate what you know, what you fear, and the option you can test safely.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Write the decision criteria before drawing; revisit them after reading rather than following a single symbol.",
+              "What evidence would make either option stronger?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-friendship-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "love",
+      "slug": "friendship-tarot-reading",
+      "title": "Tarot for friendship",
+      "intro": "Reflect on reciprocity, an unspoken need, and a conversation worth having.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "You",
+        "The connection",
+        "What to discuss"
+      ],
+      "spreadPrompts": [
+        "What can you verify about you?",
+        "What can you verify about the connection?",
+        "What can you verify about what to discuss?"
+      ],
+      "journalPrompt": "What could you ask your friend directly?",
+      "resultCopy": "Notice where your expectations differ from what your friend has actually said or done.",
+      "seoTitle": "Tarot for friendship | Verified Psychic Reviews",
+      "metaDescription": "Reflect on reciprocity, an unspoken need, and a conversation worth having.",
+      "seo": {
+        "lead": "Reflect on reciprocity, an unspoken need, and a conversation worth having.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Notice where your expectations differ from what your friend has actually said or done.",
+              "What could you ask your friend directly?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-boundaries-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "boundaries-tarot-reading",
+      "title": "A boundaries tarot reading",
+      "intro": "Name what drains you, what matters, and a boundary you can express clearly.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "How would you state your limit in one sentence?",
+      "resultCopy": "A card can name a feeling; only you can decide what limit is safe and realistic to set.",
+      "seoTitle": "A boundaries tarot reading | Verified Psychic Reviews",
+      "metaDescription": "Name what drains you, what matters, and a boundary you can express clearly.",
+      "seo": {
+        "lead": "Name what drains you, what matters, and a boundary you can express clearly.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "A card can name a feeling; only you can decide what limit is safe and realistic to set.",
+              "How would you state your limit in one sentence?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-new-beginnings-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "new-beginnings-tarot-reading",
+      "title": "Tarot for new beginnings",
+      "intro": "Explore what you are leaving, what you are learning, and where to begin.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What first step can you reverse if needed?",
+      "resultCopy": "Treat uncertainty as normal in a transition. Choose a small reversible action before a large commitment.",
+      "seoTitle": "Tarot for new beginnings | Verified Psychic Reviews",
+      "metaDescription": "Explore what you are leaving, what you are learning, and where to begin.",
+      "seo": {
+        "lead": "Explore what you are leaving, what you are learning, and where to begin.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Treat uncertainty as normal in a transition. Choose a small reversible action before a large commitment.",
+              "What first step can you reverse if needed?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-letting-go-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "letting-go-tarot-reading",
+      "title": "A letting go tarot spread",
+      "intro": "Notice the attachment, the need beneath it, and one gentle way forward.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What support would make this transition easier?",
+      "resultCopy": "Letting go is a process, not a command from a card. Give grief and uncertainty adequate space.",
+      "seoTitle": "A letting go tarot spread | Verified Psychic Reviews",
+      "metaDescription": "Notice the attachment, the need beneath it, and one gentle way forward.",
+      "seo": {
+        "lead": "Notice the attachment, the need beneath it, and one gentle way forward.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Letting go is a process, not a command from a card. Give grief and uncertainty adequate space.",
+              "What support would make this transition easier?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-creative-block-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "creative-block-tarot-reading",
+      "title": "Tarot for a creative block",
+      "intro": "Find the pressure behind a stalled idea and pick an experiment that restores momentum.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What can you make in ten imperfect minutes?",
+      "resultCopy": "Use the spread to design an experiment, not to judge your talent or promise a breakthrough.",
+      "seoTitle": "Tarot for a creative block | Verified Psychic Reviews",
+      "metaDescription": "Find the pressure behind a stalled idea and pick an experiment that restores momentum.",
+      "seo": {
+        "lead": "Find the pressure behind a stalled idea and pick an experiment that restores momentum.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Use the spread to design an experiment, not to judge your talent or promise a breakthrough.",
+              "What can you make in ten imperfect minutes?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-work-change-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "two_options",
+      "slug": "work-change-tarot-reading",
+      "title": "Tarot for a work change",
+      "intro": "Compare staying and moving through priorities, tradeoffs, and practical conditions.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Your priority",
+        "First path",
+        "First cost",
+        "Second path",
+        "Second cost"
+      ],
+      "spreadPrompts": [
+        "What can you verify about your priority?",
+        "What can you verify about first path?",
+        "What can you verify about first cost?",
+        "What can you verify about second path?",
+        "What can you verify about second cost?"
+      ],
+      "journalPrompt": "Which condition must be true before you move?",
+      "resultCopy": "Check salary, contract, timing, and support independently; cards cannot verify an offer.",
+      "seoTitle": "Tarot for a work change | Verified Psychic Reviews",
+      "metaDescription": "Compare staying and moving through priorities, tradeoffs, and practical conditions.",
+      "seo": {
+        "lead": "Compare staying and moving through priorities, tradeoffs, and practical conditions.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Check salary, contract, timing, and support independently; cards cannot verify an offer.",
+              "Which condition must be true before you move?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-study-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "study-tarot-reading",
+      "title": "A study tarot reflection",
+      "intro": "Reflect on concentration, available support, and a study rhythm you can sustain.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What study habit can you test this week?",
+      "resultCopy": "Compare the reading with your calendar, workload, and feedback from teachers or peers.",
+      "seoTitle": "A study tarot reflection | Verified Psychic Reviews",
+      "metaDescription": "Reflect on concentration, available support, and a study rhythm you can sustain.",
+      "seo": {
+        "lead": "Reflect on concentration, available support, and a study rhythm you can sustain.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Compare the reading with your calendar, workload, and feedback from teachers or peers.",
+              "What study habit can you test this week?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-communication-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "love",
+      "slug": "communication-tarot-reading",
+      "title": "Tarot for a difficult conversation",
+      "intro": "Prepare your intention, consider the other person's autonomy, and choose a respectful opening.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "You",
+        "The connection",
+        "What to discuss"
+      ],
+      "spreadPrompts": [
+        "What can you verify about you?",
+        "What can you verify about the connection?",
+        "What can you verify about what to discuss?"
+      ],
+      "journalPrompt": "What question could open the conversation?",
+      "resultCopy": "Do not use a card as evidence of someone else's motives. Ask, listen, and allow disagreement.",
+      "seoTitle": "Tarot for a difficult conversation | Verified Psychic Reviews",
+      "metaDescription": "Prepare your intention, consider the other person's autonomy, and choose a respectful opening.",
+      "seo": {
+        "lead": "Prepare your intention, consider the other person's autonomy, and choose a respectful opening.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Do not use a card as evidence of someone else's motives. Ask, listen, and allow disagreement.",
+              "What question could open the conversation?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-two-path-tarot-spread",
+      "type": "tarot_reading",
+      "mode": "two_options",
+      "slug": "two-path-tarot-spread",
+      "title": "Two path tarot spread",
+      "intro": "Compare two real options without handing the decision over to chance.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Your priority",
+        "First path",
+        "First cost",
+        "Second path",
+        "Second cost"
+      ],
+      "spreadPrompts": [
+        "What can you verify about your priority?",
+        "What can you verify about first path?",
+        "What can you verify about first cost?",
+        "What can you verify about second path?",
+        "What can you verify about second cost?"
+      ],
+      "journalPrompt": "What is the fairest comparison between both paths?",
+      "resultCopy": "Name both paths accurately, then list one benefit and one cost for each outside the cards.",
+      "seoTitle": "Two path tarot spread | Verified Psychic Reviews",
+      "metaDescription": "Compare two real options without handing the decision over to chance.",
+      "seo": {
+        "lead": "Compare two real options without handing the decision over to chance.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Name both paths accurately, then list one benefit and one cost for each outside the cards.",
+              "What is the fairest comparison between both paths?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-three-path-tarot-spread",
+      "type": "tarot_reading",
+      "mode": "three_options",
+      "slug": "three-path-tarot-spread",
+      "title": "Three path tarot spread",
+      "intro": "Give a third possibility room beside the obvious two and inspect each tradeoff.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Your priority",
+        "First path",
+        "First cost",
+        "Second path",
+        "Second cost",
+        "Third path",
+        "Third cost"
+      ],
+      "spreadPrompts": [
+        "What can you verify about your priority?",
+        "What can you verify about first path?",
+        "What can you verify about first cost?",
+        "What can you verify about second path?",
+        "What can you verify about second cost?",
+        "What can you verify about third path?",
+        "What can you verify about third cost?"
+      ],
+      "journalPrompt": "Which option can you test at low cost?",
+      "resultCopy": "The third path may be a hybrid, a delay, or a small test. Check whether it truly exists.",
+      "seoTitle": "Three path tarot spread | Verified Psychic Reviews",
+      "metaDescription": "Give a third possibility room beside the obvious two and inspect each tradeoff.",
+      "seo": {
+        "lead": "Give a third possibility room beside the obvious two and inspect each tradeoff.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "The third path may be a hybrid, a delay, or a small test. Check whether it truly exists.",
+              "Which option can you test at low cost?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-horseshoe-tarot-spread",
+      "type": "tarot_reading",
+      "mode": "horseshoe",
+      "slug": "horseshoe-tarot-spread",
+      "title": "Seven card horseshoe spread",
+      "intro": "Walk through context, hidden influences, other people, and possible direction.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Past",
+        "Present",
+        "Hidden influence",
+        "Obstacle",
+        "Others",
+        "Advice",
+        "Possible direction"
+      ],
+      "spreadPrompts": [
+        "What can you verify about past?",
+        "What can you verify about present?",
+        "What can you verify about hidden influence?",
+        "What can you verify about obstacle?",
+        "What can you verify about others?",
+        "What can you verify about advice?",
+        "What can you verify about possible direction?"
+      ],
+      "journalPrompt": "Which position needs an independent fact check?",
+      "resultCopy": "Seven positions offer breadth, not certainty. Pause where the spread conflicts with known facts.",
+      "seoTitle": "Seven card horseshoe spread | Verified Psychic Reviews",
+      "metaDescription": "Walk through context, hidden influences, other people, and possible direction.",
+      "seo": {
+        "lead": "Walk through context, hidden influences, other people, and possible direction.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Seven positions offer breadth, not certainty. Pause where the spread conflicts with known facts.",
+              "Which position needs an independent fact check?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-celtic-cross-tarot-spread",
+      "type": "tarot_reading",
+      "mode": "celtic",
+      "slug": "celtic-cross-tarot-spread",
+      "title": "Celtic cross tarot spread",
+      "intro": "Use ten positions to map a layered question, including challenges and environment.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Situation",
+        "Challenge",
+        "Foundation",
+        "Past",
+        "Aim",
+        "Near future",
+        "Your stance",
+        "Environment",
+        "Hopes and fears",
+        "Possible direction"
+      ],
+      "spreadPrompts": [
+        "What can you verify about situation?",
+        "What can you verify about challenge?",
+        "What can you verify about foundation?",
+        "What can you verify about past?",
+        "What can you verify about aim?",
+        "What can you verify about near future?",
+        "What can you verify about your stance?",
+        "What can you verify about environment?",
+        "What can you verify about hopes and fears?",
+        "What can you verify about possible direction?"
+      ],
+      "journalPrompt": "What part of this map can you influence now?",
+      "resultCopy": "Read one position at a time and avoid turning the outcome card into a fixed forecast.",
+      "seoTitle": "Celtic cross tarot spread | Verified Psychic Reviews",
+      "metaDescription": "Use ten positions to map a layered question, including challenges and environment.",
+      "seo": {
+        "lead": "Use ten positions to map a layered question, including challenges and environment.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Read one position at a time and avoid turning the outcome card into a fixed forecast.",
+              "What part of this map can you influence now?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-year-ahead-tarot-spread",
+      "type": "tarot_reading",
+      "mode": "year",
+      "slug": "year-ahead-tarot-spread",
+      "title": "Year ahead tarot spread",
+      "intro": "Explore a theme and twelve monthly prompts as a planning journal, not a forecast.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Year theme",
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "spreadPrompts": [
+        "What can you verify about year theme?",
+        "What can you verify about january?",
+        "What can you verify about february?",
+        "What can you verify about march?",
+        "What can you verify about april?",
+        "What can you verify about may?",
+        "What can you verify about june?",
+        "What can you verify about july?",
+        "What can you verify about august?",
+        "What can you verify about september?",
+        "What can you verify about october?",
+        "What can you verify about november?",
+        "What can you verify about december?"
+      ],
+      "journalPrompt": "Which monthly theme deserves a practical plan?",
+      "resultCopy": "Keep the dates flexible. Review the notes each month against what actually happened.",
+      "seoTitle": "Year ahead tarot spread | Verified Psychic Reviews",
+      "metaDescription": "Explore a theme and twelve monthly prompts as a planning journal, not a forecast.",
+      "seo": {
+        "lead": "Explore a theme and twelve monthly prompts as a planning journal, not a forecast.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Keep the dates flexible. Review the notes each month against what actually happened.",
+              "Which monthly theme deserves a practical plan?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-habit-reset-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "habit-reset-tarot-reading",
+      "title": "Tarot for resetting a habit",
+      "intro": "Explore the cue, the routine you want to change, and a manageable alternative.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "Which cue can you notice without judging yourself?",
+      "resultCopy": "Describe when the routine happens before interpreting a card. Choose one small change you can observe for a few days, then review what actually helped.",
+      "seoTitle": "Tarot for resetting a habit | Verified Psychic Reviews",
+      "metaDescription": "Explore the cue, the routine you want to change, and a manageable alternative.",
+      "seo": {
+        "lead": "Explore the cue, the routine you want to change, and a manageable alternative.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Describe when the routine happens before interpreting a card. Choose one small change you can observe for a few days, then review what actually helped.",
+              "Which cue can you notice without judging yourself?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-creative-collaboration-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "creative-collaboration-tarot-reading",
+      "title": "Tarot for creative collaboration",
+      "intro": "Reflect on a shared goal, a difference in working styles, and a conversation that could help.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What expectation should you make explicit together?",
+      "resultCopy": "Use the spread to prepare a concrete question for your collaborator. Check responsibilities and deadlines together instead of assuming a card reveals their intentions.",
+      "seoTitle": "Tarot for creative collaboration | Verified Psychic Reviews",
+      "metaDescription": "Reflect on a shared goal, a difference in working styles, and a conversation that could help.",
+      "seo": {
+        "lead": "Reflect on a shared goal, a difference in working styles, and a conversation that could help.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Use the spread to prepare a concrete question for your collaborator. Check responsibilities and deadlines together instead of assuming a card reveals their intentions.",
+              "What expectation should you make explicit together?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-moving-home-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "moving-home-tarot-reading",
+      "title": "Tarot for planning a move",
+      "intro": "Sort practical needs, the feelings around a move, and one step you can verify.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "Which detail can you check before committing to a move?",
+      "resultCopy": "List your nonnegotiable needs before drawing. Compare any symbolic theme with actual travel time, housing conditions, and support available to you.",
+      "seoTitle": "Tarot for planning a move | Verified Psychic Reviews",
+      "metaDescription": "Sort practical needs, the feelings around a move, and one step you can verify.",
+      "seo": {
+        "lead": "Sort practical needs, the feelings around a move, and one step you can verify.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "List your nonnegotiable needs before drawing. Compare any symbolic theme with actual travel time, housing conditions, and support available to you.",
+              "Which detail can you check before committing to a move?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-priority-setting-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "priority-setting-tarot-reading",
+      "title": "Tarot for setting priorities",
+      "intro": "Lay out competing demands, what can wait, and one useful next action.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Competing demands",
+        "What can wait",
+        "One next action"
+      ],
+      "spreadPrompts": [
+        "What can you verify about competing demands?",
+        "What can you verify about what can wait?",
+        "What can you verify about one next action?"
+      ],
+      "journalPrompt": "What can you postpone without breaking a commitment?",
+      "resultCopy": "Write down real deadlines and commitments first. Let the cards prompt a question about your attention, then choose a task using the time and resources you actually have.",
+      "seoTitle": "Tarot for setting priorities | Verified Psychic Reviews",
+      "metaDescription": "Lay out competing demands, what can wait, and one useful next action.",
+      "seo": {
+        "lead": "Lay out competing demands, what can wait, and one useful next action.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Write down real deadlines and commitments first. Let the cards prompt a question about your attention, then choose a task using the time and resources you actually have.",
+              "What can you postpone without breaking a commitment?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-meeting-preparation-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "meeting-preparation-tarot-reading",
+      "title": "Tarot before an important meeting",
+      "intro": "Clarify your purpose, what you need to hear, and one question to bring.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Your purpose",
+        "What to listen for",
+        "Question to bring"
+      ],
+      "spreadPrompts": [
+        "What can you verify about your purpose?",
+        "What can you verify about what to listen for?",
+        "What can you verify about question to bring?"
+      ],
+      "journalPrompt": "Which question would make the meeting more useful?",
+      "resultCopy": "A card cannot tell you what someone will say. Prepare a short agenda and leave room to revise your view after you hear the other person's actual response.",
+      "seoTitle": "Tarot before an important meeting | Verified Psychic Reviews",
+      "metaDescription": "Clarify your purpose, what you need to hear, and one question to bring.",
+      "seo": {
+        "lead": "Clarify your purpose, what you need to hear, and one question to bring.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "A card cannot tell you what someone will say. Prepare a short agenda and leave room to revise your view after you hear the other person's actual response.",
+              "Which question would make the meeting more useful?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-past-reading-review-tarot-reading",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "past-reading-review-tarot-reading",
+      "title": "Tarot for reviewing a past reading",
+      "intro": "Revisit an earlier interpretation, the events you observed, and a better question now.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "First impression",
+        "Observed events",
+        "Question now"
+      ],
+      "spreadPrompts": [
+        "What can you verify about first impression?",
+        "What can you verify about observed events?",
+        "What can you verify about question now?"
+      ],
+      "journalPrompt": "What would you interpret differently with today's context?",
+      "resultCopy": "Read your original notes before drawing again. Separate what the earlier cards suggested from what happened, including details that did not fit your first interpretation.",
+      "seoTitle": "Tarot for reviewing a past reading | Verified Psychic Reviews",
+      "metaDescription": "Revisit an earlier interpretation, the events you observed, and a better question now.",
+      "seo": {
+        "lead": "Revisit an earlier interpretation, the events you observed, and a better question now.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Read your original notes before drawing again. Separate what the earlier cards suggested from what happened, including details that did not fit your first interpretation.",
+              "What would you interpret differently with today's context?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
