@@ -499,6 +499,24 @@
           "description": "Use differences between cards to uncover two sides of a question.",
           "url": "/tarot-spread-contrasts/",
           "symbol": "✦"
+        },
+        {
+          "title": "Setting boundaries for a tarot reading",
+          "description": "Decide what you are comfortable discussing before a session begins.",
+          "url": "/tarot-reading-boundaries/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Understanding tarot session costs",
+          "description": "Check the full price and session rules before choosing a paid reading.",
+          "url": "/tarot-session-costs/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Reflecting after a tarot reading",
+          "description": "Review what was said and choose a small step you can check in real life.",
+          "url": "/tarot-reading-reflection/",
+          "symbol": "✦"
         }
       ]
     },
@@ -3660,6 +3678,138 @@
             "paragraphs": [
               "Choose two cards that seem unlike each other and describe the difference in plain words: pace, mood, action, or perspective. Read each in its assigned position before combining them. A contrast can show a tension worth discussing without requiring one card to cancel the other.",
               "What question becomes clearer when both cards stay in view?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-tarot-reading-boundaries",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "tarot-reading-boundaries",
+      "title": "Setting boundaries for a tarot reading",
+      "intro": "Decide what you are comfortable discussing before a session begins.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "Which boundary would help you feel in control of the conversation?",
+      "resultCopy": "Write down the topic, the time available, and any subjects you prefer to leave out. Ask how the reader handles a question they cannot answer. You may pause or end a session if the conversation crosses a boundary; a respectful reader should make that possible without pressure.",
+      "seoTitle": "Setting boundaries for a tarot reading | Verified Psychic Reviews",
+      "metaDescription": "Decide what you are comfortable discussing before a session begins.",
+      "seo": {
+        "lead": "Decide what you are comfortable discussing before a session begins.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Write down the topic, the time available, and any subjects you prefer to leave out. Ask how the reader handles a question they cannot answer. You may pause or end a session if the conversation crosses a boundary; a respectful reader should make that possible without pressure.",
+              "Which boundary would help you feel in control of the conversation?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-tarot-session-costs",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "tarot-session-costs",
+      "title": "Understanding tarot session costs",
+      "intro": "Check the full price and session rules before choosing a paid reading.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What cost would you want clarified before booking?",
+      "resultCopy": "Compare the quoted duration, billing increments, cancellation terms, and any charge for follow-up questions. Keep a written copy of the terms when possible. A reading should never require an unplanned payment to remove a supposed danger or guarantee a result.",
+      "seoTitle": "Understanding tarot session costs | Verified Psychic Reviews",
+      "metaDescription": "Check the full price and session rules before choosing a paid reading.",
+      "seo": {
+        "lead": "Check the full price and session rules before choosing a paid reading.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Compare the quoted duration, billing increments, cancellation terms, and any charge for follow-up questions. Keep a written copy of the terms when possible. A reading should never require an unplanned payment to remove a supposed danger or guarantee a result.",
+              "What cost would you want clarified before booking?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-tarot-reading-reflection",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "tarot-reading-reflection",
+      "title": "Reflecting after a tarot reading",
+      "intro": "Review what was said and choose a small step you can check in real life.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What can you observe before making another decision?",
+      "resultCopy": "Separate the reader's interpretation from facts you already know. Note any useful question, then decide whether a conversation, a pause, or more reliable information would help. You do not need another reading simply because one answer felt uncertain.",
+      "seoTitle": "Reflecting after a tarot reading | Verified Psychic Reviews",
+      "metaDescription": "Review what was said and choose a small step you can check in real life.",
+      "seo": {
+        "lead": "Review what was said and choose a small step you can check in real life.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Separate the reader's interpretation from facts you already know. Note any useful question, then decide whether a conversation, a pause, or more reliable information would help. You do not need another reading simply because one answer felt uncertain.",
+              "What can you observe before making another decision?"
             ]
           },
           {
