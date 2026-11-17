@@ -517,6 +517,24 @@
           "description": "Review what was said and choose a small step you can check in real life.",
           "url": "/tarot-reading-reflection/",
           "symbol": "✦"
+        },
+        {
+          "title": "Noticing color in tarot card art",
+          "description": "Use color as a prompt for observation, not as a fixed code for outcomes.",
+          "url": "/tarot-card-colors/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Protecting privacy during a tarot reading",
+          "description": "Share only the details needed to discuss your question.",
+          "url": "/tarot-session-data-privacy/",
+          "symbol": "✦"
+        },
+        {
+          "title": "Comparing tarot reader profiles",
+          "description": "Look for clear service terms before deciding whom to contact.",
+          "url": "/comparing-tarot-reader-profiles/",
+          "symbol": "✦"
         }
       ]
     },
@@ -3810,6 +3828,138 @@
             "paragraphs": [
               "Separate the reader's interpretation from facts you already know. Note any useful question, then decide whether a conversation, a pause, or more reliable information would help. You do not need another reading simply because one answer felt uncertain.",
               "What can you observe before making another decision?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-tarot-card-colors",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "tarot-card-colors",
+      "title": "Noticing color in tarot card art",
+      "intro": "Use color as a prompt for observation, not as a fixed code for outcomes.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What does the color help you notice about your question?",
+      "resultCopy": "Choose one color that draws your attention and describe where it appears. Compare how it changes the mood of the image, then return to the card's position in your spread. Different decks use color in different ways, so check the artwork in front of you rather than assigning a universal meaning.",
+      "seoTitle": "Noticing color in tarot card art | Verified Psychic Reviews",
+      "metaDescription": "Use color as a prompt for observation, not as a fixed code for outcomes.",
+      "seo": {
+        "lead": "Use color as a prompt for observation, not as a fixed code for outcomes.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Choose one color that draws your attention and describe where it appears. Compare how it changes the mood of the image, then return to the card's position in your spread. Different decks use color in different ways, so check the artwork in front of you rather than assigning a universal meaning.",
+              "What does the color help you notice about your question?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-tarot-session-data-privacy",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "tarot-session-data-privacy",
+      "title": "Protecting privacy during a tarot reading",
+      "intro": "Share only the details needed to discuss your question.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "Which details can you leave out while keeping the question clear?",
+      "resultCopy": "Before a session, ask whether notes, recordings, or chat transcripts are kept and who can see them. Avoid sharing another person's private details without their consent. You can describe a situation in general terms and ask to stop if more disclosure feels uncomfortable.",
+      "seoTitle": "Protecting privacy during a tarot reading | Verified Psychic Reviews",
+      "metaDescription": "Share only the details needed to discuss your question.",
+      "seo": {
+        "lead": "Share only the details needed to discuss your question.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Before a session, ask whether notes, recordings, or chat transcripts are kept and who can see them. Avoid sharing another person's private details without their consent. You can describe a situation in general terms and ask to stop if more disclosure feels uncomfortable.",
+              "Which details can you leave out while keeping the question clear?"
+            ]
+          },
+          {
+            "heading": "After drawing the cards",
+            "paragraphs": [
+              "Write down what the card suggests and compare it with observable events. Speak with the people involved when needed. You decide the next step.",
+              "Tarot here is for entertainment and reflection. It cannot replace medical, legal, or financial advice."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-52-comparing-tarot-reader-profiles",
+      "type": "tarot_reading",
+      "mode": "three",
+      "slug": "comparing-tarot-reader-profiles",
+      "title": "Comparing tarot reader profiles",
+      "intro": "Look for clear service terms before deciding whom to contact.",
+      "eyebrow": "A reading for reflection",
+      "questionLabel": "What situation would you like to explore?",
+      "questionPlaceholder": "Describe your question in a few words.",
+      "spreadLabels": [
+        "Context",
+        "What to notice",
+        "Next step"
+      ],
+      "spreadPrompts": [
+        "What can you verify about context?",
+        "What can you verify about what to notice?",
+        "What can you verify about next step?"
+      ],
+      "journalPrompt": "What practical detail would you confirm before booking?",
+      "resultCopy": "Compare the listed format, duration, price, cancellation rules, and stated approach to uncertainty. Treat broad promises and unverifiable claims cautiously. A profile can help you prepare questions, but it cannot prove the quality of a future session.",
+      "seoTitle": "Comparing tarot reader profiles | Verified Psychic Reviews",
+      "metaDescription": "Look for clear service terms before deciding whom to contact.",
+      "seo": {
+        "lead": "Look for clear service terms before deciding whom to contact.",
+        "sections": [
+          {
+            "heading": "How to use this reading",
+            "paragraphs": [
+              "Compare the listed format, duration, price, cancellation rules, and stated approach to uncertainty. Treat broad promises and unverifiable claims cautiously. A profile can help you prepare questions, but it cannot prove the quality of a future session.",
+              "What practical detail would you confirm before booking?"
             ]
           },
           {
